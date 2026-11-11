@@ -7,3 +7,6 @@ jobs:
         steps:
         - name: welcome message
           run: echo "welcome message"
+
+        - name: list files
+          run: ls -lrth
