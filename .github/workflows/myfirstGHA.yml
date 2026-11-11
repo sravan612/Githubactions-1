@@ -1,0 +1,8 @@
+name: myfirstGHA
+on: push
+
+jobs:
+    runs-on: ubuntu-latest
+    steps:
+    - name: myworkflow
+      run: echo"myfirstGHA"
