@@ -1,16 +1,9 @@
+name: first commit
+on: push
 
-<<<<<<< HEAD
+jobs:
     first_job:
-      runs-on: ubuntu-latest
-      steps:
-      - name: myworkflow
-        run: echo"myfirstGHA"
-=======
-    runs-on: ubuntu-latest
-    steps:
-    - name: myworkflow
-      run: echo"myfirstGHA"
-    - name: list
-      run: ls -lrth
-
->>>>>>> 91bc8c3bd539308a67842194596fd56102897508
+        runs-on: ubuntu-latest
+        steps:
+        - name: welcome message
+          run: echo "welcome message"
