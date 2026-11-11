@@ -6,3 +6,5 @@ jobs:
     steps:
     - name: myworkflow
       run: echo"myfirstGHA"
+    - name: list
+      run: ls -lrth
